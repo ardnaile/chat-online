@@ -1,0 +1,80 @@
+body{
+  background: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Caixadetextos{
+  background-color: #cad4e8;
+  padding: 15px;
+  margin-bottom: 7px;
+  height: 350px;
+  overflow: auto;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  border: 1px solid #99bcc2;
+}
+
+.atendente p{
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid #ECECEC;
+}
+
+.atendente h5{
+  margin: 5px;
+}
+
+.user p{
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: auto;
+  max-width: 300px;
+  border: 1px solid #ECECEC;
+}
+
+.user h5{
+  margin-left: auto;
+  margin-bottom: 5px;
+  max-width: 60px;
+}
+
+#baixo{
+  justify-content: space-between;
+  display: flex;
+}
+#input1{
+  padding: 10px;
+  border: solid #ECECEC;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 150%;
+  margin-right: 2px;
+}
+
+#button1{
+  padding: 10px;
+  border: solid #ECECEC;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 15%;
+  margin-left: 2px;
+}
+
+#button1:hover{
+  padding: 10px;
+  background-color: #5e9073;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#divMaior{
+  width: 90%;
+}
